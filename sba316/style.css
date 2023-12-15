@@ -1,0 +1,12 @@
+/* colors and stuff */
+body {
+    font-family: 'Ringbearer';
+    margin: 20px;
+}
+
+.character {
+    font-family: 'Ringbearer';
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}

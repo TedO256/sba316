@@ -1,0 +1,48 @@
+<!-- LETS GO -->
+<!-- required aspects will be commented -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Ringbearer:wght@400&display=swap">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Lord of the Rings Thing</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- getElementById -->
+  <div id="characterList">
+    <!-- querySelector -->
+    <div id="newCharacter">
+      <label for="characterName">Name:</label>
+      <input type="text" id="characterName">
+      <button onclick="addCharacter()">Add Character</button>
+    </div>
+
+    <!-- parent-child-sibling relationship navigation -->
+    <div class="character" id="frodo">
+      <h3>Frodo Baggins</h3>
+      <p>Hobbit</p>
+      <button onclick="updateCharacter('frodo')">Update</button>
+      <button onclick="removeCharacter('frodo')">Remove</button>
+    </div>
+
+
+    <div class="character" id="aragorn">
+      <h3>Aragorn</h3>
+      <p>Human</p>
+      <button onclick="updateCharacter('aragorn')">Update</button>
+      <button onclick="removeCharacter('aragorn')">Remove</button>
+    </div>
+  </div>
+
+
+
+  <script src="main.js"></script>
+
+</body>
+</html>
